@@ -1,13 +1,17 @@
-# Github Lookup
-#### An Angular app that let's you find Git Profiles and Repositories, 22/08/2019
+# SKYHUB 
+#### An Angular app that let's you find Git Profiles and Repositories.
 ### **This project was done using ANGULAR-Cli Version 8.**
 
+## Author
+Lorenah M.  
+https://twitter.com/skylar_lorena
+
+
 ## Description
-This is a **Github Lookup** application that searches for user and displays their profile info using the ***Github API.***
+This is a **SKYHUB** application that searches for user and displays their profile info using the ***Github API.***
 
 This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
-GitHub API was used to retrieve this information. This API allows ***5,000*** requests per hour with an API key, but only 60 requests per hour _without_ one.
 
 ## User Story
 
@@ -37,7 +41,7 @@ This include the following mentioned below.
 If you dont have this requirements you could use the link above to help with the installation guide.
 
 ## Screenshot
-<img src="src/SKYLAR.png" width="1000">
+<img src="src/SKYLAR.png" width="100">
 
 ## Deployment/Demo
 App was deployed to [Github Pages]() using Angular Cli, by publishing the **dist/** folder.
@@ -51,7 +55,7 @@ App was deployed to [Github Pages]() using Angular Cli, by publishing the **dist
 
 2. You will also need a Webpage URL to load in URL's:
 
-3. To get to use **SKYHUB** fist you need to get to the Github-API-Search--Update-Angular-cli-8 repository.
+3. To get to use **SKYHUB** fist you need to get to the Github repository.
 
 Link:-> ```https://github.com/LORENAH-MBOGO/SKYHUB```
 
@@ -75,15 +79,12 @@ ng serve
 http://localhost:4200/
 ```
 
-10. This will load for you Github Lookup
+10. This will load for you SKYHUB 
 
 
 
 ## Known Bugs
 No known bugs at the moment.
-## Author
-Joseph Adediji  
-https://twitter.com/josylad
 
 ## Technologies used
 * HTML
@@ -95,10 +96,10 @@ https://twitter.com/josylad
 
 ## Support and Contact
 
--Twitter: [@Josylad](https://twitter.com/josylad/)
+-Twitter: [@skylar_lorena](https://twitter.com/skylar_lorena/)
 
--github-username: josylad
+-github-username: LORENAH-MBOGO
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-Copyright (c) 2019
+Copyright (c) 2020
