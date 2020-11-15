@@ -37,23 +37,23 @@ This include the following mentioned below.
 If you dont have this requirements you could use the link above to help with the installation guide.
 
 ## Screenshot
-<img src="src/gitlookup.png" width="1000">
+<img src="src/SKYLAR.png" width="1000">
 
 ## Deployment/Demo
-App was deployed to [Github Pages](https://josylad.github.io/Git-Lookup/) using Angular Cli, by publishing the **dist/** folder.
-https://josylad.github.io/Git-Lookup/
+App was deployed to [Github Pages]() using Angular Cli, by publishing the **dist/** folder.
+/
 
 # **SETUP/INSTALLATION.**
 
-### **To work With Github Lookup**
+### **To work With SKYHUB **
 
 1. You will need Internet connection.
 
 2. You will also need a Webpage URL to load in URL's:
 
-3. To get to use **GIT-LOOKUP** fist you need to get to the Github-API-Search--Update-Angular-cli-8 repository.
+3. To get to use **SKYHUB** fist you need to get to the Github-API-Search--Update-Angular-cli-8 repository.
 
-Link:-> ```https://github.com/josylad/Git-Lookup```
+Link:-> ```https://github.com/LORENAH-MBOGO/SKYHUB```
 
 4. From there you can access Git-Lookup.
 
