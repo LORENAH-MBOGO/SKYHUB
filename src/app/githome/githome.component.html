@@ -1,0 +1,78 @@
+<!-- body section starts here -->
+
+<body>
+    <div class="bg">
+        <div class="jumbotron bg-info">
+            <h1 class="h1 text-center text-white animated bounce infinite"><a target="_top" href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2020/11/15/flamingtext_com_1605431195_962295292.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></h1>
+            <hr class="my-4">
+            <p class="lead text-center"><a target="_top" href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2020/11/15/flamingtext_com_1605431295_962295293.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></p>
+        </div>
+        <!-- Designed by Lorenah M.  -->
+
+        <!-- this is the section that contains the search form  -->
+        <div class="container">
+            <h4 class="text-center h4 text-white text-white"><a target="_top" href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2020/11/15/flamingtext_com_1605431443_962295294.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></h4>
+            <app-git-form (emitSearch)="searchGit($event)"></app-git-form>
+            <hr>
+        </div>
+
+        <!-- This is the section for displaying user profiles -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container">
+                        <div class="">
+                            <div *ngFor="let github of githubs">
+                                <br><br>
+                                <div class="text-center mt-4 pt-5 ml-4">
+                                    <img src="{{github.avatar_url}}" class="align-center img-fluid  z-depth-3 rounded-circle animated jello delay-3s" width="60%" height="60%" alt="github avatar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="container mt-4">
+                        <h2 class="text-center h2 h2-responsive text-white animated swing delay-3s"><a target="_top" href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2020/11/15/flamingtext_com_1605431524_962295295.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></h2>
+                        <div class="jumbotron">
+                            <div *ngFor="let github of githubs">
+                                <div class="">
+                                    <p appHighlight class="lead"> <strong>Name:</strong> {{github.name}}</p>
+                                    <p appHighlight> <strong>Username:</strong> {{github.login}}</p>
+                                    <p appHighlight> <strong>Bio:</strong> {{github.bio}}</p>
+                                    <p appHighlight> <strong>Public Repos:</strong> {{github.public_repos}}</p>
+                                    <p appHighlight> <strong>Followers:</strong> {{github.followers}}</p>
+                                    <p appHighlight> <strong>Following:</strong> {{github.following}}</p>
+                                    <p appHighlight> <strong>Location:</strong> {{github.location}}</p>
+                                    <p appHighlight> <strong>Join Date:</strong> {{github.created_at |date}}</p>
+                                    <p><a href="{{github.html_url}}" target="_blank"><button type="button" class="btn btn-elegant blue-gradient"><i class="far fa-user pr-2" aria-hidden="true"></i>View Profile on Github</button></a></p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Footer section -->
+<div class="">
+    <footer class="page-footer bg-dark font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://twitter.com/skylar_lorena" target="_blank">Lorenah M.</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+</div>
+<!-- Footer -->
