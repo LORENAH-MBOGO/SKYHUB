@@ -41,7 +41,7 @@ This include the following mentioned below.
 If you dont have this requirements you could use the link above to help with the installation guide.
 
 ## Screenshot
-<img src="src/SKYLAR.png" width="100">
+<img src="src/SKYLAR.png" width="600">
 
 ## Deployment/Demo
 App was deployed to [Github Pages]() using Angular Cli, by publishing the **dist/** folder.
